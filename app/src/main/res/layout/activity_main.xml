@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toStartOf="@+id/pauseBTN"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/playBTN"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+        app:layout_constraintTop_toBottomOf="@+id/musicSB" />
 
     <Button
         android:id="@+id/pauseBTN"
@@ -49,8 +49,8 @@
         app:layout_constraintStart_toEndOf="@+id/stopBTN" />
 
     <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="wrap_content"
+        android:id="@+id/musicSB"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
